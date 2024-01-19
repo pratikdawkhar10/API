@@ -2,12 +2,11 @@
   "name": "nodejsapi",
   "version": "1.0.0",
   "description": "",
-  "main": "api.js",
+  "main": "index.js",
   "scripts": {
     "start": "node api.js",
     "dev": "nodemon api.js"
-  }
-
+  },
   "dependencies": {
     "body-parser": "~1.0.1",
     "cors": "^2.8.5",
@@ -15,10 +14,11 @@
     "mssql": "^6.4.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.22"
   },
   "keywords": [],
   "author": "",
   "license": "ISC"
 }
+
 
