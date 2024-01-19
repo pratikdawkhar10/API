@@ -4,13 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node api.js"
-    "dev": "nodemon api.js",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon api.js"
   },
   "dependencies": {
     "body-parser": "~1.0.1",
-    "cors": "^2.8.1",
+    "cors": "^2.8.5",
     "express": "~4.0.0",
     "mssql": "^6.4.1"
   },
@@ -21,3 +20,4 @@
   "author": "",
   "license": "ISC"
 }
+
